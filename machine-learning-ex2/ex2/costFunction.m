@@ -28,7 +28,7 @@ J = (1/m)*sum(sqrerr);
 
 errors_vec = X' * (h-y);
 theta(1) = 0;
-grad = (1/m * errors_vec);
+grad = (1/m) * errors_vec;
 
 % =============================================================
 
